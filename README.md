@@ -1,0 +1,1 @@
+# plugins-super-simple-slider
