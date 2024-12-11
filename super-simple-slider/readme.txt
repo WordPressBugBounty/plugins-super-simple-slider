@@ -3,9 +3,9 @@ Contributors: outtheboxthemes
 Donate link: https://www.outtheboxthemes.com/
 Tags: slider, image slider, wordpress slider, responsive slider
 Requires at least: 3.9
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.3
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ To change the order of the slides simply drag and drop them into place.
 The slide overlay text inherits the styling from the theme that is currently active so there is no styling required. 
 
 == Changelog ==
+
+#### 1.0.14
+* Fix: Fixed a "doing it wrong" notice occurring since 6.7.1 due to translations being called before the init action
 
 #### 1.0.13
 * Compatibility update

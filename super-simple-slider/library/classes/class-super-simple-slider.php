@@ -199,7 +199,7 @@ class Super_Simple_Slider {
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_styles' ), 10, 1 );
 
 		// Handle localisation.
-		$this->load_plugin_textdomain();
+		//$this->load_plugin_textdomain();
 		add_action( 'init', array( $this, 'load_localisation' ), 0 );
 		
 		// Load the widget

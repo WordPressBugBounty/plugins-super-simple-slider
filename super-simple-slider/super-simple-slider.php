@@ -1,13 +1,13 @@
 <?php
 /*
  * Plugin Name: Super Simple Slider
- * Version: 1.0.13
+ * Version: 1.0.14
  * Plugin URI: https://www.outtheboxthemes.com/wordpress-plugins/super-simple-slider/
  * Description: A lightweight, easy-to-use slider plugin.
  * Author: Out the Box
  * Author URI: https://www.outtheboxthemes.com/
  * Requires at least: 4.0
- * Tested up to: 6.6
+ * Tested up to: 6.7
  * Requires PHP: 5.3
  *
  * Text Domain: super-simple-slider
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'SUPER_SIMPLE_SLIDER_DEBUG', false );
-define( 'SUPER_SIMPLE_SLIDER_PLUGIN_VERSION', '1.0.13' );
+define( 'SUPER_SIMPLE_SLIDER_PLUGIN_VERSION', '1.0.14' );
 
 // Load plugin class files.
 require_once 'library/classes/class-super-simple-slider.php';
